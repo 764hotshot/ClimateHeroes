@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4496993224393865338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222387742979016456}
+  - component: {fileID: 434800129313187953}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1222387742979016456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496993224393865338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &434800129313187953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496993224393865338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 825906fd5b757b5479733f67d930e738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peopleIBSprites:
+  - {fileID: 21300000, guid: c1e9ca3710383654dbeb414bde397ce9, type: 3}
+  - {fileID: 21300000, guid: 709a7d201a40ce44e87227e38adf3cab, type: 3}
+  - {fileID: 21300000, guid: 88226ecd405b87642ab04788bb2d3909, type: 3}
+  - {fileID: 21300000, guid: 5d24b7050f4c5f5459139c984282f296, type: 3}
+  backgroundIBSprites:
+  - {fileID: 21300000, guid: 49c7910bf5ef3d7488b9cd77a3abd460, type: 3}
+  - {fileID: 21300000, guid: 11a7997dbb5cb0049a92452d5e58a150, type: 3}
+  - {fileID: 21300000, guid: 55fc5e2c09fd3bf41ba44bf5e10aca05, type: 3}
+  - {fileID: 21300000, guid: 4937fe69d4c95b649abde4dad530e0e2, type: 3}
+  exiting: 0
+  ExitArrow: {fileID: 422644158332301879, guid: bc195dd2f8662f24faf9c70f04e232e1, type: 3}
+  Confetti: {fileID: 3021232327376323988, guid: 1cbe26acfec01b04a8ddb77085c79055, type: 3}
+  Transition: {fileID: 7278667028664492197, guid: 2794f3b558abe7d49a98280dc530aee4, type: 3}
+  windDone: 0
+  solarDone: 0
+  carsDone: 0
+  captureDone: 0
+  transitioning: 0
